@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".search_activity"
+    android:background="#6c54fc">
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/search_tool"
+        android:background="#583EFA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+       />
+
+    <ListView
+        android:id="@+id/list_search"
+        android:layout_width="match_parent"
+        android:layout_height="657dp"
+        android:layout_below="@id/search_tool" />
+
+</RelativeLayout>

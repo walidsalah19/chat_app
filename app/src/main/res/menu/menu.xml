@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:compet="http://schemas.android.com/tools">
+    <item android:title="login out"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/login_out"> </item>
+
+    <item android:title="account"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/acountname"> </item>
+    <item android:title="Search"
+        app:showAsAction="collapseActionView"
+        android:id="@+id/searcht" />
+</menu>

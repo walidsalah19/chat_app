@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>activity_registar.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+activity_registar.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;utf-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;androidx.constraintlayout.widget.ConstraintLayout </span><span class="s1">xmlns:android</span><span class="s2">=&quot;http://schemas.android.com/apk/res/android&quot;</span>
+    <span class="s1">xmlns:app</span><span class="s2">=&quot;http://schemas.android.com/apk/res-auto&quot;</span>
+    <span class="s1">xmlns:tools</span><span class="s2">=&quot;http://schemas.android.com/tools&quot;</span>
+    <span class="s1">android:layout_width</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">android:layout_height</span><span class="s2">=&quot;match_parent&quot;</span>
+    <span class="s1">tools:context</span><span class="s2">=&quot;.registar&quot;</span>
+    <span class="s1">android:background</span><span class="s2">=&quot;@color/design_default_color_primary_variant&quot;</span><span class="s0">&gt;</span>
+    <span class="s0">&lt;Button </span><span class="s1">android:background</span><span class="s2">=&quot;@drawable/button_color&quot;</span>
+        <span class="s1">android:layout_height</span><span class="s2">=&quot;46dp&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;121dp&quot;</span>
+        <span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;MissingConstraints&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.313&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintRight_toRightOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintLeft_toLeftOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;register&quot;</span>
+        <span class="s1">android:id</span><span class="s2">=&quot;@+id/button_virify&quot;</span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;EditText </span><span class="s1">android:layout_height</span><span class="s2">=&quot;57dp&quot;</span>
+        <span class="s1">android:layout_width</span><span class="s2">=&quot;374dp&quot;</span>
+        <span class="s1">tools:ignore</span><span class="s2">=&quot;MissingConstraints&quot;</span>
+        <span class="s1">app:layout_constraintVertical_bias</span><span class="s2">=&quot;0.18&quot;</span>
+        <span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintRight_toRightOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintLeft_toLeftOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">app:layout_constraintBottom_toBottomOf</span><span class="s2">=&quot;parent&quot;</span>
+        <span class="s1">android:text</span><span class="s2">=&quot;+20&quot; </span><span class="s1">android:id</span><span class="s2">=&quot;@+id/phonenumber&quot;</span>
+        <span class="s1">app:layout_constraintHorizontal_bias</span><span class="s2">=&quot;0.602&quot;</span>
+        <span class="s1">android:inputType</span><span class="s2">=&quot;phone&quot; </span><span class="s1">android:ems</span><span class="s2">=&quot;10&quot;</span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;EditText </span><span class="s1">android:layout_height</span><span class="s2">=&quot;55dp&quot; </span><span class="s1">android:layout_width</span><span class="s2">=&quot;373dp&quot; </span><span class="s1">tools:ignore</span><span class="s2">=&quot;MissingConstraints&quot; </span><span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s1">app:layout_constraintRight_toRightOf</span><span class="s2">=&quot;parent&quot; </span><span class="s1">app:layout_constraintLeft_toLeftOf</span><span class="s2">=&quot;parent&quot; </span><span class="s1">android:id</span><span class="s2">=&quot;@+id/virify_text&quot; </span><span class="s1">android:inputType</span><span class="s2">=&quot;number&quot; </span><span class="s1">android:ems</span><span class="s2">=&quot;10&quot; </span><span class="s1">android:layout_marginTop</span><span class="s2">=&quot;280dp&quot;</span><span class="s0">/&gt;</span>
+
+    <span class="s0">&lt;Button </span><span class="s1">android:background</span><span class="s2">=&quot;@drawable/button_color&quot; </span><span class="s1">android:layout_height</span><span class="s2">=&quot;48dp&quot; </span><span class="s1">android:layout_width</span><span class="s2">=&quot;135dp&quot; </span><span class="s1">android:textColor</span><span class="s2">=&quot;@color/white&quot; </span><span class="s1">tools:ignore</span><span class="s2">=&quot;MissingConstraints&quot; </span><span class="s1">app:layout_constraintTop_toTopOf</span><span class="s2">=&quot;parent&quot; </span><span class="s1">app:layout_constraintRight_toRightOf</span><span class="s2">=&quot;parent&quot; </span><span class="s1">app:layout_constraintLeft_toLeftOf</span><span class="s2">=&quot;parent&quot; </span><span class="s1">android:text</span><span class="s2">=&quot;virify&quot; </span><span class="s1">android:id</span><span class="s2">=&quot;@+id/virify&quot; </span><span class="s1">android:layout_marginTop</span><span class="s2">=&quot;368dp&quot;</span><span class="s0">/&gt;</span>
+<span class="s0">&lt;/androidx.constraintlayout.widget.ConstraintLayout&gt;</span></pre>
+</body>
+</html>
